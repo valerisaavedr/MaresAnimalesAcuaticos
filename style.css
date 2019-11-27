@@ -1,8 +1,7 @@
-table, tr, td,th{
-    border: 1px black solid;
-    font-style: italic
+a:hover{
+    color: blueviolet
 }
-#para1 {
-    text-align: center;
-    color: red;
-  }
+
+td:hover{
+    width: 200px
+}
