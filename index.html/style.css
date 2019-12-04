@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+}
+
+p{
+    margin: 50px;
+    border: 4px solid black;
+    padding: 50px;
+}
+
+h1{
+    background-color:rgb(150, 8, 194);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(235, 13, 105);
+    text-align: center;
+}
