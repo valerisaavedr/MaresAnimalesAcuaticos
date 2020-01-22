@@ -62,3 +62,15 @@ body{
     bottom: 20px;
     right: 20px;
 }
+
+#imagenvaleria:hover{
+    transition-duration: 1s;
+    transition-timing-function: lineal;
+    transform: rotateZ(-10deg);
+}
+
+#imagenvaleria2:hover{
+    transition-duration: 1s;
+    transition-timing-function: lineal;
+    transform: translate(100px,50px);
+}

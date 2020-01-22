@@ -1,3 +1,9 @@
 a:hover{
     color: blueviolet
 }
+
+#imagenvaleria{
+    transition-duration: 1s;
+    transition-timing-function: lineal;
+    transform: rotateZ(-10deg);
+}
