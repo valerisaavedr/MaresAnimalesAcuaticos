@@ -66,11 +66,27 @@ body{
 #imagenvaleria:hover{
     transition-duration: 1s;
     transition-timing-function: lineal;
-    transform: skew(30deg);
+    transform: matrix(5,2,1,10,8,2);
+    filter: blur(100%);
 }
 
-#imagenvaleria2:hover{
-    transition-duration: 1s;
-    transition-timing-function: lineal;
-    transform: translate(100px,50px);
+#imagenvaleria2{
+    animation-name: miAnimacion;
+    transition-duration: 2s;
+    animation-iteration-count: 3;
+    /*animation-fill-mode: fowars;*/
+    animation-delay: 1s;
+    -moz-animation-direction: 90;
 }
+
+@keyframes miAnimacion{
+    0%}
+        transform: rotateZ(0deg);
+    }
+    40%{
+        transform: rotateZ(70deg);
+    }
+    90%{
+        transform: rotateZ(360deg)
+        transform: translate3d(40px, 100px);
+    }
